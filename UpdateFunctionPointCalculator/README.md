@@ -1,5 +1,5 @@
 Function Point Calculator
-A web-based tool to automate Function Point Analysis (FPA) with AI-powered SRS analysis and SQL Server integration.
+- A web-based tool to automate Function Point Analysis (FPA) with AI-powered SRS analysis and SQL Server integration.
 
 📋 Overview
 This project calculates Function Points (FP) for software size estimation, integrating the Gemini 1.5-flash API to analyze Software Requirements Specifications (SRS) and store results in a SQL Server database.
