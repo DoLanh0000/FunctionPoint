@@ -9,11 +9,14 @@ Function Point Calculator
 - AI SRS Analysis: Analyzes SRS files (PDF, TXT, JPG) using Gemini 1.5-flash API.
 - Data Storage: Saves results in a SQL Server database.
 - PDF Export: Generates downloadable FP reports.
+- History Tracking: Users can view, edit or delete previous calculations, improving project management. 
+- Function Point Chart: Bar chart provides visual representation of FP trends over time, enhancing analysis capabilities.
 - User-Friendly: Responsive design with Bootstrap and intuitive input forms.
 
 🛠️ Technologies
 - Frontend: HTML, CSS, Bootstrap 4.5.0
 - Backend: JavaScript, C# (ASP.NET 4.6.1)
+- User Interface: Bootstrap 4.5.0, Font Awesome 5.15.4, jQuery 3.5.1, Popper.js, 2.5.4,Chart.js 3.9.1.
 - Database: SQL Server
 - AI: Gemini 1.5-flash API
 - Tools: Visual Studio 2022
@@ -69,18 +72,25 @@ Note: Replace placeholders with your actual server details and API key. Avoid co
 - Build and run (F5).
 
 
-📋 Usage
--  Upload SRS: Upload a PDF, TXT, or JPG SRS file and click "Analyze with AI".
-- Input Data: Enter FP components (EI, EO, EQ, ILF, EIF) and VAF factors (F1-F14).
-- Calculate: Click "Calculate FP" to get results.
-- Export: Click "Export PDF Report" to download results.
-- Reset: Click "Reset" to clear inputs.
+📋 How to use
+- Upload SRS: Upload SRS PDF, TXT or JPG file and click "Analyze with AI".
+- Input data: Enter FP components (EI, EO, EQ, ILF, EIF) and VAF factors (F1-F14).
+- Calculate: Click "Calculate FP" to get the result.
+- Export: Click "Export PDF Report" to download the result.
+- Reset: Click "Reset" to clear the input data.
+- View history: Click "View history" button to view the Function Point calculation history of calculated projects.
+- Edit: Click "Edit" button to edit the calculated Function Point data for the specific project.
+- Delete: Click "Delete" button to clear the Function Point calculation data that the user wants to delete.
+- View Chart: Click the "View Chart" button to display a column chart listing and measuring the calculated Function Point results of the calculated projects.
 
 
 🌟 Advantages
 + Automates complex FPA calculations.
 + AI enhances SRS analysis efficiency.
 + Stores and exports results easily.
++ History Tracking: Users can view, edit or delete previous calculations, improving project management.
++ Bar Chart: Bar charts provide a visual representation of FP trends over time, enhancing analysis capabilities.
+
 
 🚧 Limitations
 - Accuracy depends on SRS clarity.
